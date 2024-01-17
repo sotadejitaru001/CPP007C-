@@ -13,7 +13,7 @@ public:
 /// <summary>
 /// 箱型
 /// </summary>
-class Box :Solid {
+class Box :public Solid {
 private:
     double width;
     double height;
