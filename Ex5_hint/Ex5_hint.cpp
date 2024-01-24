@@ -121,10 +121,10 @@ public:
 };
 int main()
 {
-	Box box{ 2,2,2.2 };
-	Cylinder cylinder{ 2.2,2.2 };
-	Cone cone{ 2.2,2.2 };
-	Sphere sphere{ 2.2 };
+	Box box{ 2,2,2 };
+	Cylinder cylinder{ 2,2 };
+	Cone cone{ 2,2 };
+	Sphere sphere{ 2 };
 	Solid* solids[] = { &box, &cylinder, &cone, &sphere };
 	for (Solid* s : solids)
 	{
